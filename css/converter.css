@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .converter {
+    margin-left: 10vw;
+    margin-top: 5vw;
+    width: 80%;
+    height: 90vh;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #1a0e69, #06014b);
+  }
+  
+  .container_converter {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .input-top-1,.input-top-2,.input-bottom-1,.input-bottom-2{
+    width: 25vw;
+  }
+  .container_converter .div-h1 span {
+    width: 100%;
+    height: 70px;
+    background-color: #06014b;
+    border: 5px solid #00bbf0;
+    text-align: start;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .container_converter .main-heading h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 80px;
+  }
+  
+  .input-boxes-1,
+  .input-boxes-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .input-boxes-1 input,
+  .input-boxes-2 input,
+  .select {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #06014b;
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+  }
+  
+  .input-boxes-1 input::placeholder,
+  .input-boxes-2 input::placeholder,
+  .select {
+    color: white;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 968px) {
+    .container .main-heading h1 {
+      font-size: 30px;
+    }
+
+    .input-boxes-1,
+    .input-boxes-2 {
+      flex-direction: column;
+    }
+  
+    .input-boxes-1 input,
+    .input-boxes-2 input,
+    .select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .input-top-1,.input-top-2,.input-bottom-1,.input-bottom-2{
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container_converter .main-heading h1 {
+      font-size: 25px;
+  
+    }
+    .input-top-1,.input-top-2,.input-bottom-1,.input-bottom-2{
+      width: 100%;
+    }
+  }

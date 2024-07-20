@@ -1,0 +1,568 @@
+/* FOOTER START */
+
+.section {
+	background:   linear-gradient(to right , #1a0e69 , #06014b);
+    width: 100%;
+    height: 100%;
+}
+
+.main-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(400px));
+}
+
+.main-list .list-1 {
+    margin-bottom: 50px;
+}
+
+.main-list .list-1 h4 {
+    color: #00bbf0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.main-list .list-1 a {
+    text-decoration: none;
+}
+
+.main-list .list-1 a li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.main-list .list-1 a li:hover {
+    color: #00bbf0;
+}
+
+.main-list .list-1 a li i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.main-list .list-1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* LIST 2 */
+
+.main-list .list-2 {
+    margin-bottom: 50px;
+}
+
+.main-list .list-2 h4 {
+    color: #00bbf0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.main-list .list-2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-list .list-2 a li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.main-list .list-2 a li:hover {
+    color: #00bbf0;
+}
+
+.main-list .list-2 .address-icons .add-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-list .list-2 .address-icons .add-icons a .main-list .list-2 .address-icons .add-icons a li i {
+    margin-right: 15px;
+    font-size: 20px;
+    transition: all ease 0.5s;
+}
+
+.main-list .list-2 .address-icons .add-icons a li i:hover {
+    color: #00bbf0;
+    transform: scale(1.5);
+}
+
+/* LIST 3 */
+
+.main-list .list-3 {
+    margin-bottom: 50px;
+}
+
+.main-list .list-3 h4 {
+    color: #00bbf0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.main-list .list-3 a {
+    text-decoration: none;
+}
+
+.main-list .list-3 a li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.main-list .list-3 a li:hover {
+    color: #00bbf0;
+}
+
+.main-list .list-3 a li i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.main-list .list-3 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-list .list-4 {
+    margin-bottom: 50px;
+}
+
+.main-list .list-4 h4 {
+    color: #00bbf0;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+.main-list .list-4 a {
+    text-decoration: none;
+}
+
+.main-list .list-4 a li {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.main-list .list-4 a li:hover {
+    color: #00bbf0;
+}
+
+.main-list .list-4 a li i {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.main-list .list-4 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* FOOTER END */
+
+/* WHAT IS METRIC CONVERSION START */
+
+.metric-conversion-section {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    transition: all ease-in-out 0.3s;
+}
+.metric-conversion-section:hover{
+    transform: translateY(-10px);
+}
+
+.metric-container {
+    width: 70%;
+    height: 100%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px red solid;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #1a0e69ca;
+    background: linear-gradient(to right, #3f31ff, #00143a);
+}
+
+.metric-container .metric-article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.metric-container .metric-article h1 {
+    text-align: center;
+    color: #00bbf0;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 450px){
+    .metric-container .metric-article h1 {
+        font-size: 30px;
+    }}
+
+.metric-container .metric-article p {
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+
+.metric-container .metric-article button {
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: #00bbf0;
+    color: white;
+    border: 2px solid #06014b;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all ease 0.5s;
+    z-index: 1;
+}
+
+.metric-container .metric-article button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #00143a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-90%);
+    transition: 0.5s all ease;
+}
+
+.metric-container .metric-article button:hover::before {
+    transform: translateX(-50%);
+}
+
+.metric-container .metric-article button::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #00143a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(90%);
+    transition: 0.5s all ease;
+}
+
+.metric-container .metric-article button:hover::after {
+    transform: translateX(50%);
+}
+
+.metric-container .metric-article button:hover {
+    color: white;
+}
+
+/* WHAT IS METRIC CONVERSION END */
+
+/* About Section CSS */
+
+.about-section {
+    width: 100%;
+    height: 100%;
+    /* background-color: #00204a; */
+    background: linear-gradient(to right, #1a0e69, #06014b);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-section .article {
+    margin-bottom: 100px;
+}
+
+.about-section .article h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins';
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about-section .article h2 span {
+    color: #00bbf0;
+}
+
+.about-section .article p {
+    font-size: 20px;
+    font-family: 'poppins';
+    color: white;
+    text-align: center;
+}
+
+.about-pic {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.article-about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about-pic h3 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-pic p {
+    color: white;
+
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ABOUT SECTION END */
+
+/* Why Choose Us Start */
+
+.why-choose-us-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 50PX;
+}
+
+.why-choose-us-icon .top-1 {
+    text-align: center;
+}
+
+.why-choose-us-icon .top-2 {
+    text-align: center;
+}
+
+.why-choose-us-icon .top-3 {
+    text-align: center;
+}
+
+.why-choose-us-icon .top-1 i {
+    font-size: 150px;
+    text-align: center;
+}
+
+.top-1 h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.top-1 p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.why-choose-us-icon .top-2 i {
+    font-size: 150px;
+}
+
+.top-2 h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top-2 p {
+    font-size: 20px;
+}
+
+.why-choose-us-icon .top-3 i {
+    font-size: 150px;
+}
+
+.top-3 h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.top-3 p {
+    font-size: 20px;
+}
+
+/* Why Choose Us End  */
+
+/* WHY CHOOSE US START */
+
+.why-choose-us-icon-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.why-choose-us-icon-2 .bottom-1 {
+    text-align: center;
+}
+
+.why-choose-us-icon-2 .bottom-2 {
+    text-align: center;
+}
+
+.why-choose-us-icon-2 .bottom-3 {
+    text-align: center;
+}
+
+.why-choose-us-icon-2 .bottom-1 i {
+    font-size: 150px;
+    text-align: center;
+}
+
+.bottom-1 h4 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom-1 p {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.why-choose-us-icon-2 .bottom-2 i {
+    font-size: 150px;
+}
+
+.bottom-2 h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom-2 p {
+    font-size: 20px;
+}
+
+.why-choose-us-icon-2 .bottom-3 i {
+    font-size: 150px;
+}
+
+.bottom-3 h4 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom-3 p {
+    font-size: 20px;
+}
+
+.why-choose-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.why-choose-us a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+.why-choose-us a::after {
+    content: "";
+    position: absolute;
+    background-color: #031942;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s all;
+}
+
+.why-choose-us a:hover::after {
+    width: 100%;
+}
+
+.why-choose-us h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+#why-choose-us::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: #031942;
+    left: 100px;
+}
+
+.why-choose-us h2 span {
+    color: #00bbf0;
+}
+
+/*WHY CHOOSE US END*/
+
+/*team section */
+
+.team-container {
+    width: 100%;
+    height: 100%;
+    /* padding: 100px; */
+    background: linear-gradient(to right, #1a0e69, #06014b);
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.team-container .h2 {
+    font-size: 50px;
+    color: #00bbf0;
+    text-align: center;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+@media only screen and(max-width: 254px) {
+    .team-container .h2 {
+        font-size: 40px;
+    }
+}
